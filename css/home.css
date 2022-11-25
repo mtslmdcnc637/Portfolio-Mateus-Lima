@@ -1,0 +1,96 @@
+:root{
+    --blue:#4158D0;
+    --purple:#C850C0;
+    --orange_light:#FFCC70;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 20px;
+    color:#fff;
+}
+b.name{
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+
+
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+nav ul li a{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 200;
+}
+.network a{
+    font-size: 35px;
+    margin: 15px;
+    color:#fff;
+}
+
+/* fim do css relacionado ao menu superior ---------------------------------------------------------------------------------- */
+
+
+.hero{
+    width: 100%;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    transform: translateY(-70px);
+    max-height: 800px;
+}
+.hero h1{
+    font-size: 60px;
+    line-height: 70px;
+    color:#f9f9f9;
+}
+.hero p{
+    font-size: 16px;
+    font-weight: 200;
+    color:#fff;
+}
+.hero a{
+    color:#fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+}
+
+/* fim do css relacionado a hero ------------------------------------------------------------------------------------------------------*/
+
+
+.features{
+    background-color: #fff;
+}
